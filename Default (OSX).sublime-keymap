@@ -1,0 +1,8 @@
+[
+   { "keys": ["shift+alt+up"], "command": "synchro_scroll", "args": {"cmd": "move", "by": "lines", "forward": false} },
+   { "keys": ["shift+alt+down"], "command": "synchro_scroll", "args": {"cmd": "move", "by": "lines", "forward": true} },
+   { "keys": ["shift+alt+pageup"], "command": "synchro_scroll", "args": {"cmd": "move", "by": "pages", "forward": false} },
+   { "keys": ["shift+alt+pagedown"], "command": "synchro_scroll", "args": {"cmd": "move", "by": "pages", "forward": true} },
+   { "keys": ["ctrl+shift+alt+home"], "command": "synchro_scroll", "args": {"cmd": "move_to", "to": "bof", "extend": false} },
+   { "keys": ["ctrl+shift+alt+end"], "command": "synchro_scroll", "args": {"cmd": "move_to", "to": "eof", "extend": false} }
+]
