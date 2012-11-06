@@ -1,0 +1,4 @@
+[
+   { "button": "scroll_up", "modifiers":["shift","alt"], "command": "synchro_scroll", "args": {"cmd": "move", "by": "lines", "forward": false} },
+   { "button": "scroll_down", "modifiers":["shift","alt"], "command": "synchro_scroll", "args": {"cmd": "move", "by": "lines", "forward": true} }
+]
